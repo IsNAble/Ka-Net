@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+
+.wrapper {
+  min-height: 100%
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1430px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.menu__link {
+  color: #000;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.menu__items:not(:last-child) {
+  margin: 0px 70px 0px 0px;
+}
+
+.header__button {
+  background: #0057FF;
+  font-family: Quicksand;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  width: 250px;
+  height: 55px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  background: #395996;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  min-height: 104px;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.menu__list {
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer {
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.img1 {
+  float: right;
+}
+
+.offer h1 {
+  font-size: 46px;
+  font-weight: 700;
+  width: 589px;
+  color: #003FB9;
+  margin-top: 97px;
+  line-height: 58px;
+  font-family: 'Quicksand';
+}
+
+.offer h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #555555;
+  width: 545px;
+}
+
+.offer a {
+  display: block;
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  background: linear-gradient(90deg, #535353 0%, #000000 105.65%);
+  width: 250px;
+  padding: 12px 38px;
+}
+
+.offer__btn {
+  margin-right: 82px;
+}
+
+.offer__nav {
+  display: flex;
+  margin-top: 50px;
+}
+
+.Logo1 {
+  padding: 0px 50px 0px 0px;
+}
+
+.offer h2 {
+  margin-top: 50px;
+}
+
+.footer__about {
+  display: flex;
+  margin-top: 157px;
+  padding-bottom: 70px;
+  justify-content: space-between;
+
+}
+
+.footer__about h3 {
+  font-size: 40px;
+
+}
